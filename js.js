@@ -16,7 +16,7 @@ $(document).ready(function() {
     $('.selected img').addClass('helper');
     $('.selected img').attr("src", src);
   });
-
+//test
 
   $('.selected').click(function() {
     $(this).fadeOut(200).find('img').attr("src", "");
