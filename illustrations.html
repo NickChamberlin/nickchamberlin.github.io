@@ -1,0 +1,241 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Illustrations Page - jsFiddle demo</title>
+
+  <script type='text/javascript' src='//code.jquery.com/jquery-1.9.1.js'></script>
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="http://jsfiddle.net/css/result-light.css">
+
+
+      <script type='text/javascript' src="http://css-tricks.com/examples/HorzScrolling/jquery.mousewheel.js"></script>
+
+
+
+      <script type='text/javascript' src="http://ben-major.co.uk/jquery-mobile-events/jquery.mobile-events.js"></script>
+
+
+  <style type='text/css'>
+    @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+ * {
+    margin:0;
+    padding:0;
+    outline:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+    cursor:default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+html {
+    background-color:#13D0A8;
+    font-family:'Montserrat', Times, Roboto, sans-serif;
+    text-align:center;
+}
+a {
+    text-decoration:none;
+    cursor:hand;
+    color:white;
+}
+.wrapper {
+    opacity:0;
+    display:block;
+    width:100%;
+    height:100%;
+    -webkit-animation: intro 360ms cubic-bezier(.24, .59, .4, .96) forwards;
+
+}
+
+.Xarrow {
+    width:20px;
+    height:20px;
+    margin-left:120px;
+    position:absolute;
+    margin-top:30px;
+    left:50%;
+    display:none;
+}
+
+.name a {
+    opacity:0;
+    color:#13D0A8;
+    background-color:#fff;
+    font-size: 28px;
+    letter-spacing:-2px;
+    display:inline-block;
+    padding:10px 15px;
+    margin-top:25px;
+    -webkit-animation: fadeIn 600ms forwards;
+}
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes intro {
+    0% {
+        -webkit-transform: translateY(200px);
+        transform: translateY(200px);
+        opacity:0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+
+
+
+
+
+
+/*   BELOW IS FLEX BOX LIKE STYLES  ------------------------ */
+
+
+.float {
+    background: #fff;
+    margin: 50px auto 30px auto;
+    width: 100%;
+    max-width:1100px;
+    overflow: hidden;
+    padding:50px 40px;
+    border-radius:3px;
+}
+.float span {
+    background: #bada55;
+    width: 32%;
+    min-height: 50px;
+    margin: .66%;
+    float: left;
+}
+span img {
+    max-width:100%;
+    vertical-align:bottom;
+}
+
+
+@media only screen and (max-width : 600px) {
+    .float span {
+        background: #bada55;
+        width: 48%;
+        min-height: 50px;
+        margin: 1%;
+    }
+}
+@media only screen and (max-width : 340px) {
+    .float span {
+        background: #bada55;
+        width: 98%;
+        min-height: 50px;
+        margin: 1%;
+        overflow:hidden;
+    }
+    span img {
+    }
+    .name {
+        font: 28px roboto, helvetica, sans-serif;
+    }
+}
+
+/*   END FLEX BOX LIKE STYLES  ------------------------ */
+  </style>
+
+
+
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+
+
+$( ".name" ).hover(
+  function() {
+    $('.Xarrow').stop().fadeIn(100);
+  }, function() {
+    $('.Xarrow').stop().fadeOut(100);
+  }
+);
+});//]]>
+
+</script>
+
+
+</head>
+<body>
+  <img class="Xarrow" src="https://dl.dropboxusercontent.com/u/7353877/X_white.png">
+    <br>
+<div class="name">
+
+    <a href="http://jsfiddle.net/draft"> nick chamberlin </a>
+</div>
+
+<div class="wrapper">
+
+
+
+
+
+
+
+
+
+<div class="float">
+    <span><img src="http://bit.ly/1KRVKtH" /></span>
+    <span><img src="http://bit.ly/1sJTYoP" /></span>
+    <span><img src="http://bit.ly/1sJUcfp" /></span>
+    <span><img src="http://bit.ly/1Gdi2Xh" /></span>
+    <span><img src="http://bit.ly/1E9Mpch" /></span>
+    <span><img src="http://bit.ly/1DMRCJN" /></span>
+    <span><img src="http://bit.ly/1ubLGqJ" /></span>
+    <span><img src="http://bit.ly/1znT0Rf" /></span>
+    <span><img src="http://bit.ly/158KN79" /></span>
+    <span><img src="http://bit.ly/1sJUQtv" /></span>
+    <span><img src="http://bit.ly/1yuoTEO" /></span>
+    <span><img src="http://bit.ly/1ITqs1L" /></span>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+
+
+</html>
