@@ -64,7 +64,7 @@ footer {
 	position: absolute;
 	bottom: 30px;
 	right: 40px;
-	font-size:calc(12px + 3vw);
+	font-size: 18px;
 }
 
 
@@ -183,7 +183,7 @@ footer {
   	position: absolute;
   	bottom: 30px;
   	right: 30px;
-    font-size: 4vw;
+    font-size: 18px;
   }
 
 
