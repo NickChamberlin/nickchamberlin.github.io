@@ -1,6 +1,6 @@
 body {
 	background-color: #13D0A8;
-	font-family: Roboto, Times, sans-serif;
+	font-family: Roboto, Helvetica, sans-serif;
 	min-width:500px;
 
 
@@ -52,13 +52,13 @@ header {
 	min-width: 250px;
 
 	padding: 20px 40px;
-	margin-bottom:20px;
+	margin-bottom:30px;
 
-opacity:0;
-display:none;
+  opacity:0;
 
-    -webkit-animation: nameDrop 800ms 600ms cubic-bezier(.24, .59, .4, .96) forwards;
-    animation: nameDrop 800ms 600ms cubic-bezier(.24, .59, .4, .96) forwards;
+
+  -webkit-animation: nameDrop 1200ms cubic-bezier(.1, .80, .44, .96) 800ms forwards;
+  animation: nameDrop 1200ms cubic-bezier(.1, .80, .44, .96) 800ms forwards;
 
 }
 
@@ -79,8 +79,8 @@ nav a {
 
 footer {
 	position: absolute;
-	bottom: 20px;
-	right: 30px;
+	bottom: 5%;
+	right: 5%;
 }
 
 
@@ -90,8 +90,8 @@ footer {
 
 @-webkit-keyframes nameDrop {
     0% {
-        -webkit-transform: translateY(-100x);
-        transform: translateY(-100px);
+        -webkit-transform: translateY(-50x);
+        transform: translateY(-50px);
         opacity:0;
     }
     100% {
