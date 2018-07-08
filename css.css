@@ -134,6 +134,21 @@ footer {
 
 @media all and (orientation:portrait) {
 
+  main {
+  	position: absolute;
+    margin: auto;
+  	min-width: 300px;
+    top: 0;
+    right: 0;
+    bottom: 20%;
+    left: 0;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-content: center;
+  	align-items: center;
+  }
+
   header {
   	position:relative;
   	background-color: #fff;
@@ -162,14 +177,14 @@ footer {
   }
 
   nav a {
-  	margin: 0 10%;
-  	padding: 10%;
+  	margin: 0 5%;
+  	padding: 5%;
 
   }
 
   footer {
   	position: absolute;
-  	bottom: 10%;
+  	bottom: 30px;
   	right: 10%;
   }
 
