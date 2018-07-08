@@ -55,9 +55,9 @@ a {
 }
 
 nav a {
-	/* margin: 0 10px;
+	margin: 0 10px;
 	padding: 10px;
-	font-size:calc(12px + .5vw); */
+	font-size:calc(12px + .8vw);
 }
 
 footer {
@@ -183,7 +183,7 @@ footer {
   	position: absolute;
   	bottom: 30px;
   	right: 30px;
-    font-size: 18px;
+  	font-size:calc(12px + .8vw);
   }
 
 
