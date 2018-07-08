@@ -138,6 +138,7 @@ footer {
   	position: absolute;
     margin: auto;
   	min-width: 300px;
+    max-width:80%;
     top: 0;
     right: 0;
     bottom: 20%;
