@@ -5,4 +5,4 @@
 
 > Hosted on Github Pages.
 
-[nickchamberlin.com](https://www.nickchamberlin.com)
+> [nickchamberlin.com](https://www.nickchamberlin.com)
