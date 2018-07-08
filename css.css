@@ -52,12 +52,13 @@ a {
 	font-weight: 300;
   opacity: 0;
   animation: fadeIn 1000ms ease-out 300ms forwards;
+	font-size:calc(12px + .8vw);
 }
 
 nav a {
 	margin: 0 10px;
 	padding: 10px;
-	font-size:calc(12px + .8vw);
+
 }
 
 footer {
@@ -160,7 +161,7 @@ footer {
   	letter-spacing:-3px;
   	font-size:calc(36px + 5vw);
   	text-align: center;
-  	max-width: 80%;
+  	max-width: 100%;
   	min-width: 250px;
   	padding: 50px 10%;
   	margin-bottom:30px;
@@ -174,10 +175,11 @@ footer {
   	font-weight: 100;
     opacity: 0;
     animation: fadeIn 1000ms ease-out 300ms forwards;
+  	font-size:calc(12px + 3vw);
   }
 
   nav a {
-  	font-size:calc(12px + 3vw);
+
   }
 
   footer {
